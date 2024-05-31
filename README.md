@@ -57,6 +57,7 @@ The current OCR model is trained using an Artificial Neural Network (ANN), which
 - Mr. Neelotpal Santra
 - Mr. Ronak Manishkumar Parmar
 
----
+## Note
+The Dataset is too large to include along the file, choose the correct format from kaggle, the original dataset link wouild be provided soon.
 
-This README provides a comprehensive overview of the Handwriting to Text OCR project, including the purpose, description, languages and libraries used, dataset details, model summary, and future scope. For any issues or enhancements, feel free to open an issue or submit a pull request on GitHub.
+---
