@@ -1,0 +1,373 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: #d8e2dc;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #000;
+  z-index: 20;
+}
+
+.header ul {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.header ul li {
+  list-style: none;
+}
+
+.header ul li:hover a {
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+}
+
+.header ul li a {
+  transition: 0.2s;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.main-section {
+  height: 100vh;
+  padding-top: 60px;
+  display: grid;
+  grid-template-areas: "a a a";
+  align-items: center;
+}
+
+.main-section span {
+  height: 500px;
+  width: 2px;
+  background: #000;
+}
+
+.main-section h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-section .block-1,
+.main-section .block-2 {
+  padding: 20px;
+  margin: 10px 50px;
+}
+
+.main-section .block-1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-section .block-1 .buttons{
+  display: flex;
+  align-self: flex-end  ;
+  flex-direction: column;
+  & >*{
+    margin: 10px;
+  }
+}
+
+.main-section .block-1 .buttons .done {
+  padding: 10px 30px;
+  height: 40px;
+  outline: none;
+  border: 2px solid #000;
+  background: lightblue;
+  color: #000;
+}
+
+.main-section .block-1 .buttons .clear {
+  padding: 10px 30px;
+  height: 40px;
+  outline: none;
+  border: 2px solid #000;
+  background: lightcoral;
+  color: #000;
+}
+
+.main-section .block-1 .buttons .clear:hover{
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+  border: 2px solid #fff;
+}
+
+.main-section .block-1 .done:hover {
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+  border: 2px solid #fff;
+}
+
+.main-section .block-2 .output-box {
+  width: 200px;
+  height: 200px;
+  font-size: 5em;
+  font-weight: 900;
+  background-color: #fff;
+  border: 2px solid #000;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-section .block-2 .output-box h1 {
+  font-size: 10rem;
+}
+
+.about-page {
+  height: 110vh;
+  width: 100%;
+  background-color: #f1a7a9;
+}
+
+.about-page h1 {
+  font-family: "Poppins", sans-serif;
+  color: #000;
+  width: 150px;
+  border-left: 3px solid #000;
+  margin: 20px;
+  margin-left: 50px;
+  transform: translateY(50px);
+  background-color: #fff;
+  padding: 3px 15px;
+}
+
+.about-page p {
+  transform: translateY(50px);
+  width: 90%;
+  word-wrap: normal;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  margin-left: 100px;
+}
+
+.footer {
+  height: 50vh;
+  width: 100%;
+  background-color: #000;
+}
+
+.footer .contact-page {
+  width: 100%;
+  height: 50px;
+  transform: translateY(30px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer .contact-page ul {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.footer .contact-page ul li {
+  margin: 5px;
+  padding: 10px 20px;
+}
+
+.footer .contact-page ul li a {
+  text-decoration: none;
+}
+
+.footer .contact-page ul li a i {
+  font-size: 2rem;
+  color: #ffffff;
+  transition: 0.3s;
+}
+
+.footer .contact-page ul li a i:hover {
+  scale: 1.2;
+}
+
+.footer .contact-page ul li a .fa-facebook:hover {
+  color: #4267b2;
+}
+
+.footer .contact-page ul li a .fa-instagram:hover {
+  background-image: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.footer .contact-page ul li a .fa-linkedin:hover {
+  color: #0077b5;
+}
+
+
+.more{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transform: translateY(90px);
+}
+
+.more .b1 h1{
+  color: #fff;
+  font-weight: 300;
+  font-size: 1rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.more .b2 h1{
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.more .b1{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.more a{
+  color: lightblue;
+  font-family: 'Courier New', Courier, monospace;
+  text-decoration: none;
+}
+
+hr{
+  transform: translateY(60px);
+}
+
+.more .b1 .project-by{
+  width: 100%;
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.more .b2{
+  color: #fff;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.more .b2 .guided-by{
+  margin-top: 20px;
+}
+
+.feedback{
+  margin: 10px;
+}
+
+.feedback h1{
+  font-size: 1rem;
+  padding: 2px 10px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.feedback button{
+  padding: 5px 20px;
+  border: 1px solid #000;
+  margin: 5px;
+}
+
+.feedback .yes{
+  background-color: #89fc00;
+}
+
+.feedback .no{
+  background: #d00000;
+}
+
+.feedback .labeling{
+  padding: 10px;
+  margin: 10px;
+  margin-right: 0px;
+  outline: none;
+  border: 1px solid gray;
+  border-right: none;
+}
+
+
+.feedback .upbutton{
+  margin: 0;
+  border: none;
+  height: 38px;
+  width: 40px;
+  border: 1px solid #000;
+  border-left: none;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #00b4d8;
+  overflow: hidden;
+  /* padding: 10px; */
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.upbutton:active #up-button{
+  /* transform: translateY(-50px); */
+  animation: animate 2s ease-in-out;
+}
+
+@keyframes animate {
+  0%{
+    transform: translateY(0px);
+  }
+  20%{
+    transform: translateY(-100px);
+  }
+  70%{
+    transform: translateY(200px);
+  }
+  100%{
+    transform: translateY(0px);
+  }
+}
+
+.label-class{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.feedback .upbutton #up-button{
+  transition: .3s;
+  font-size: 1rem;
+  color: #fff;
+  /* background: #000; */
+}
