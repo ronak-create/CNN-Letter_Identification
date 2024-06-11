@@ -46,6 +46,8 @@ The system allows users to write a single capital letter (A-Z) or number (0-9) i
 - **Optimizer**: Adam
 - **Model Accuracy**: 97.94% (0.9794289469718933)
 
+!["Model Summary"](Cnn_summary.png)
+
 ## Future Scope
 The current OCR model is trained using an Artificial Neural Network (ANN), which may not recognize patterns effectively. For improved accuracy and pattern recognition, the model should be trained using a Convolutional Neural Network (CNN).
 
