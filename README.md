@@ -1,5 +1,7 @@
 # Handwriting to Text (OCR – Optical Character Recognition Model)
 
+!["CNN-Letter_Recognition"](CNN_cover.png)
+
 ## Purpose
 This project aims to build a simple OCR (Optical Character Recognition) system as a learning exercise to understand the basics of Artificial Intelligence and Machine Learning.
 
