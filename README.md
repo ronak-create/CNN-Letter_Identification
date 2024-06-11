@@ -54,10 +54,7 @@ The current OCR model is trained using an Artificial Neural Network (ANN), which
 - Mr. Sheel Shah
 
 ## Efforts By
-- Mr. Neelotpal Santra
+- Mr. Neelotpal Debasis Santra
 - Mr. Ronak Manishkumar Parmar
-
-## Note
-The Dataset is too large to include along the file, choose the correct format from kaggle, the original dataset link wouild be provided soon.
 
 ---
